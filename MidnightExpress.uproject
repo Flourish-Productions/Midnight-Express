@@ -13,6 +13,10 @@
 				"Linux",
 				"Mac"
 			]
+		},
+		{
+			"Name": "RawInput",
+			"Enabled": true
 		}
 	]
 }
