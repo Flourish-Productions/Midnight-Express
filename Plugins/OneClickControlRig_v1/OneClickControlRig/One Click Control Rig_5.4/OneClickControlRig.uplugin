@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "One Click Control Rig",
+	"Description": "Apply a Control Rig instantly to any Mixamo generated rig. Bake and edit animations in seconds!",
+	"Category": "Animation",
+	"CreatedBy": "UnrealForVFX.com",
+	"CreatedByURL": "http://www.unrealforvfx.com/",
+	"DocsURL": "http://www.unrealforvfx.com/",
+	"MarketplaceURL": "",
+	"SupportURL": "http://unrealforvfx.com/contact",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"NoCode": true
+}

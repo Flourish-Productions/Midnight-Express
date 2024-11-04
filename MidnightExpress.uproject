@@ -17,6 +17,10 @@
 		{
 			"Name": "RawInput",
 			"Enabled": true
+		},
+		{
+			"Name": "OneClickControlRig",
+			"Enabled": true
 		}
 	]
 }
