@@ -21,6 +21,10 @@
 		{
 			"Name": "OneClickControlRig",
 			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
 		}
 	]
 }
