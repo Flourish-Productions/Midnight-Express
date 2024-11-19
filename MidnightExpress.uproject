@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "MidnightExpress",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SteamVR",
@@ -16,6 +26,14 @@
 		},
 		{
 			"Name": "RawInput",
+			"Enabled": true
+		},
+		{
+			"Name": "OneClickControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
 			"Enabled": true
 		}
 	]
