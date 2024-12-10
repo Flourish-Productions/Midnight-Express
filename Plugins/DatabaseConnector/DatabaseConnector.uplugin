@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.6",
+	"FriendlyName": "DatabaseConnector",
+	"Description": "Easily connect to your database from Unreal Engine 4.",
+	"Category": "Database",
+	"CreatedBy": "Pandores",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/en-US/profile/Pandores?count=50&sortBy=effectiveDate&sortDir=DESC&start=0",
+	"DocsURL": "https://pandoa.github.io/DatabaseConnector-ODBC/#/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/0caf06b280154d4fa0d580358ad5f724",
+	"SupportURL": "mailto:pandores.marketplace@gmail.com",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DatabaseConnector",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Mac",
+				"Win64",
+				"Linux"
+			]
+		}
+	]
+}
