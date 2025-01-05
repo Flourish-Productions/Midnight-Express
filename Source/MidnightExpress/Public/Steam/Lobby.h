@@ -7,9 +7,10 @@
 /**
  * 
  */
-class MIDNIGHTEXPRESS_API CreateLobby
+class MIDNIGHTEXPRESS_API Lobby
 {
 public:
-	CreateLobby();
-	~CreateLobby();
+	Lobby();
+	void _CreateLobby();
+	void _LeaveLobby();
 };
