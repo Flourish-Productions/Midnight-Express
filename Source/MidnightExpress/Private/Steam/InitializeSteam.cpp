@@ -2,7 +2,7 @@
 
 
 #include "Steam/InitializeSteam.h"
-//#include <steam/steam_api.h>
+#include <iostream>
 
 InitializeSteam::InitializeSteam()
 {
@@ -11,11 +11,11 @@ InitializeSteam::InitializeSteam()
 
 bool InitializeSteam::_InitializeSteam()
 {
-	// if (!SteamAPI_Init())
-	// {
-	// 	std::cerr << "Steam API initialization failed!" << std::endl;
-	// 	return false;
-	// }
+	if (!SteamAPI_Init())
+	{
+		std::cerr << "Steam API initialization failed!" << std::endl;
+		return false;
+	}
 	return true;
 }
 
