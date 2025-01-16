@@ -13,4 +13,5 @@ public:
 	Lobby();
 	void _CreateLobby();
 	void _LeaveLobby();
+	void _JoinLobby();
 };

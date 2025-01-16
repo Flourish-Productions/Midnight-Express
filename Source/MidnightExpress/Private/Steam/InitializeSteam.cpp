@@ -6,6 +6,7 @@
 
 InitializeSteam::InitializeSteam()
 {
+	_InitializeSteam();
 }
 
 bool InitializeSteam::_InitializeSteam()
@@ -15,7 +16,6 @@ bool InitializeSteam::_InitializeSteam()
 	// 	std::cerr << "Steam API initialization failed!" << std::endl;
 	// 	return false;
 	// }
-	// return true;
 	return true;
 }
 
