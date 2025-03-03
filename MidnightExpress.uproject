@@ -38,7 +38,7 @@
 		},
 		{
 			"Name": "DatabaseConnector",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/0caf06b280154d4fa0d580358ad5f724"
 		}
 	]
