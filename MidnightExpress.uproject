@@ -37,9 +37,12 @@
 			"Enabled": true
 		},
 		{
-			"Name": "DatabaseConnector",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/0caf06b280154d4fa0d580358ad5f724"
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamController",
+			"Enabled": true
 		}
 	]
 }
