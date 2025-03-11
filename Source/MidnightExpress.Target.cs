@@ -10,6 +10,8 @@ public class MidnightExpressTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
+		MacPlatform.bUseDSYMFiles = false;
+
 		ExtraModuleNames.AddRange( new string[] { "MidnightExpress" } );
 	}
 }
