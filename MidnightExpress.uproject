@@ -41,7 +41,7 @@
 			"Enabled": true
 		},
 		{
-			"Name": "SteamController",
+			"Name": "SteamSockets",
 			"Enabled": true
 		}
 	]
