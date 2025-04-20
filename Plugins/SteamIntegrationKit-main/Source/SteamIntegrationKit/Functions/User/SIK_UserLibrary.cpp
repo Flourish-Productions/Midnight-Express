@@ -183,7 +183,7 @@ int32 USIK_UserLibrary::GetAuthSessionTicket(TArray<uint8>& Ticket, FSIK_SteamNe
 	uint32 TicketLength = 0;
 	HAuthTicket Result;
 	bool LocalCheckForSteamNetworkingIdentity = false;
-	if(Identity.m_eType.GetValue() == k_ESteamNetworkingIdentityType_Invalid)
+	if(static_cast<uint8>(Identity.m_eType) == k_ESteamNetworkingIdentityType_Invalid)
 	{
 		LocalCheckForSteamNetworkingIdentity = true;		
 	}
